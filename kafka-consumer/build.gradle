@@ -1,0 +1,25 @@
+group 'com.lucky'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
+    implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '0.10.2.1'
+
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.26'
+
+    //Elastic Search client
+    implementation 'org.elasticsearch.client:elasticsearch-rest-high-level-client:6.6.2'
+
+    //Json Parser
+    implementation 'com.google.code.gson:gson:2.8.5'
+}

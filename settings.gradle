@@ -1,0 +1,6 @@
+rootProject.name = 'kafka'
+
+include 'producer','samples'
+include 'kafka-consumer'
+include 'kafka-stream-filter-tweets'
+
