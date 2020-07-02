@@ -3,4 +3,6 @@ rootProject.name = 'kafka'
 include 'producer','samples'
 include 'kafka-consumer'
 include 'kafka-stream-filter-tweets'
+include 'producer-springbootway' // producer-springbootway is the artifact id
+include 'consumer-springbootway'
 

@@ -1,6 +1,7 @@
 .gradle
 /build/
 
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
@@ -12,3 +13,15 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+.idea
+# Adding some projects build here , rest have their own .gitignore
+samples/build
+samples/out
+producer/build
+producer/out
+kafka-consumer/build
+kafka-consumer/out
+kafka-stream-filter-tweets/build
+kafka-stream-filter-tweets/out
+
